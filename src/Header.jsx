@@ -33,7 +33,7 @@ function Header(p) {
           </div>
         </div>
         <div className="text-xs flex-col flex items-center justify-center text-gray-500 p-5">
-          Design autoral. Feito com Tailwind e React. MIT Licence, 2025.
+          Design autoral. Feito com Tailwind e React. MIT License, 2025.
           <a
             href="https://github.com/zaqueu-dev/my_portfolio.git"
             className="text-blue-900 flex items-center justify-center gap-2 text-xl"
