@@ -7,7 +7,8 @@ function About() {
         Opa! Me chamo Zaqueu. Sou desenvolvedor front-end e designer em
         constante desenvolvimento. Sou também estudante de{" "}
         <b>Ciência da Computação</b> da UERN, no campi de Mossoró. Sou
-        apaixonado por tecnologia, design e música. Meu objetivo é{" "}
+        apaixonado por tecnologia, design e música. Programação para mim não é
+        uma ferramenta, é um propósito. Meu objetivo é{" "}
         <b>
           trabalhar em projetos desafiadores e que possam impactar a vida das
           pessoas de forma positiva.
