@@ -25,9 +25,9 @@ function Header(p) {
         <div className="w-full h-15 flex items-center justify-between box-border">
           <div className="flex items-center justify-between w-full h-full pl-5 py-10">
             <div className="flex flex-col items-center hover:cursor-pointer">
-              <GrAd className="text-4xl" />
+              <GrAd className="text-4xl md:text-5xl" />
             </div>
-            <div className="bg-black text-white h-15 w-70  flex items-center justify-center rounded-bl-full pl-7 font-bold">
+            <div className="bg-black text-white h-15 w-70 md:w-100 md:text-2xl flex items-center justify-center rounded-bl-full pl-7 font-bold">
               Zaqueu Nilton de Souza Paiva
             </div>
           </div>
@@ -44,10 +44,10 @@ function Header(p) {
           </a>
           {/* This line can be deleted as one will. This is for my portfolio purposes only*/}
         </div>
-        <div className="px-5 mb-7">{p.children}</div> {/* children */}
-        <div className="fixed bottom-0 left-0 h-4 w-full overflow-hidden bg-slate-200">
+        <div className="px-5 md:px-20 mb-7">{p.children}</div> {/* children */}
+        <div className="fixed bottom-0 left-0 h-4 w-full overflow-hidden bg-slate-300">
           <div
-            className="flex h-4 bg-green-400"
+            className="flex h-4 bg-red-600"
             style={{ width: `${scrollPercentage}%` }}
           ></div>
         </div>

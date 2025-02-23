@@ -18,7 +18,7 @@ function Knowledge() {
   return (
     <div className="bg-black rounded-lg mt-5 flex flex-col">
       <div className="text-white self-center mt-3 text-xl">Experiência</div>
-      <div className="flex items-center justify-center gap-5 p-5 text-4xl text-white">
+      <div className="flex items-center justify-center gap-5 p-5 text-4xl text-white md:text-6xl">
         <FaReact />
         <RiJavascriptFill />
         <FaJava />
@@ -27,9 +27,9 @@ function Knowledge() {
         <FaBootstrap />
         <SiMaterialdesign />
       </div>
-      <div className="text-justify text-white text-lg p-5">
+      <div className="text-justify text-white text-lg md:text-3xl p-5 ">
         Possuo algum prévio conhecimento e experiência em{" "}
-        <b className="text-green-400">
+        <b className="text-green-400 ">
           React, JavaScript, Java, Apache Cordova, Tailwind CSS, Bootstrap e
           Material Design.
         </b>
@@ -40,7 +40,7 @@ function Knowledge() {
         necessidade do projeto. Não sei de tudo, mas o que eu não souber,
         buscarei aprender e farei a tarefa.
         <hr className="text-white my-2" />
-        <div className="flex items-center justify-center gap-5 p-5 text-4xl text-white">
+        <div className="flex items-center justify-center gap-5 p-5 text-4xl md:text-6xl text-white">
           <FaHtml5 />
           <FaCss3 />
           <IoLogoVercel />
@@ -53,7 +53,7 @@ function Knowledge() {
         </div>
         <hr className="text-white my-2" />
         <div
-          className="flex items-center justify-center gap-5 p-5 text-4xl text-white
+          className="flex items-center justify-center gap-5 p-5 text-4xl text-white md:text-6xl
         "
         >
           <FaGit />
@@ -68,7 +68,7 @@ function Knowledge() {
         </div>
         <hr className="text-white my-2"></hr>
         <div
-          className="flex items-center justify-center gap-5 p-5 text-4xl text-white
+          className="flex items-center justify-center gap-5 p-5 text-4xl text-white md:text-6xl
         "
         >
           <FaNodeJs />
