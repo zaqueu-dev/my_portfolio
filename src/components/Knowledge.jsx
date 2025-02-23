@@ -13,6 +13,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { SiPostman } from "react-icons/si";
+import { SiVite } from "react-icons/si";
 
 function Knowledge() {
   return (
@@ -26,12 +27,13 @@ function Knowledge() {
         <RiTailwindCssFill />
         <FaBootstrap />
         <SiMaterialdesign />
+        <SiVite />
       </div>
       <div className="text-justify text-white text-lg md:text-3xl p-5 ">
         Possuo algum prévio conhecimento e experiência em{" "}
         <b className="text-green-400 ">
-          React, JavaScript, Java, Apache Cordova, Tailwind CSS, Bootstrap e
-          Material Design.
+          React, Vite, JavaScript, Java, Apache Cordova, Tailwind CSS, Bootstrap
+          e Material Design.
         </b>
         <br></br>
         <br></br>
