@@ -14,6 +14,9 @@ import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { SiPostman } from "react-icons/si";
 import { SiVite } from "react-icons/si";
+import { FaGolang } from "react-icons/fa6";
+import { SiTypescript } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 
 function Knowledge() {
   return (
@@ -28,12 +31,15 @@ function Knowledge() {
         <FaBootstrap />
         <SiMaterialdesign />
         <SiVite />
+        <FaGolang />
+        <SiTypescript />
+        <RiNextjsFill />
       </div>
       <div className="text-justify text-white text-lg md:text-3xl p-5 ">
         Possuo algum prévio conhecimento e experiência em{" "}
         <b className="text-green-400 ">
-          React, Vite, JavaScript, Java, Apache Cordova, Tailwind CSS, Bootstrap
-          e Material Design.
+          React.js, Vite, JavaScript/Typescript, NextJS, Java, Golang, Apache
+          Cordova, Tailwind CSS, Bootstrap e Material Design.
         </b>
         <br></br>
         <br></br>
