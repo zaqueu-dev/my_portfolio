@@ -22,7 +22,7 @@ function Knowledge() {
   return (
     <div className="bg-black rounded-lg mt-5 flex flex-col">
       <div className="text-white self-center mt-3 text-xl">Experiência</div>
-      <div className="flex items-center justify-center gap-5 p-5 text-4xl text-white md:text-6xl">
+      <div className="flex flex-wrap items-center justify-center gap-5 p-5 text-4xl text-white md:text-6xl">
         <FaReact />
         <RiJavascriptFill />
         <FaJava />
